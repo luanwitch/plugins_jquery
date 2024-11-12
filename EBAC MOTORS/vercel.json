@@ -1,6 +1,11 @@
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "echo \"No test specified\"",
-  "eject": "react-scripts eject"
+{
+      "router": "/", [
+        {
+        "src": "/"
+        },
+        {
+          "src": "/test",
+          "dest": "/"
+        }
+    }
 }
